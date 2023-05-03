@@ -9,6 +9,40 @@ import html2canvas from 'html2canvas';
 })
 export class AppComponent {
   name = 'Angular';
+  items=[
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"},
+    {name:'kishan', title:"pandey"}
+]
   convertToPdf() {
     //WORKING EXAMPLE IS HERE
     let html1 = document.querySelector('.printformClass');
